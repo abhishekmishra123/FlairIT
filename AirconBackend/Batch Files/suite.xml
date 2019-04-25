@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mapfre CDA Test Suite">
+	<test name="Login Test" parallel="false">
+		<!-- Included classes here will be executed. -->
+		<classes>
+			 <class name = "TestCases.LoginTest"></class>
+		</classes>
+	</test>
+	<test name="Logout Tests" parallel="false">
+		<!-- Included classes here will be executed. -->
+		<classes>
+			 <class name = "TestCases.LogoutTest"></class>
+		</classes>
+	</test>	
+</suite>
